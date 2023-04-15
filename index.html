@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Agregar hoja de Estilo -->
+    <link rel="stylesheet" href="estilo.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Catalogo Technopolis</title>
+</head>
+
+<body>
+
+    <div id="container-app">
+        <header>
+            <h1> TECHNOPOLIS </h1> <!--Título 1-->
+            <h2> Seguridad, Calidad y Garantía</h2> <!-- Título 2-->
+        </header>
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-black bg-green">
+            <div class="container justify-content-center"> <!-- Añade la clase justify-content-center aquí -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="About.html">Quienes Somos</a>
+                        </li>
+                        <li class="nav-item me-auto">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn btn-success" type="button" data-bs-toggle="modal"
+                                data-bs-target="#ventanaCarrito">Carrito</button>
+                        </li>
+                    </ul>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+
+
+        <br>
+        <!-- Notificación -->
+        <p> Venta de Productos de Catálogo Marzo 2023</p> <!-- Parrafo -->
+        <!-- <p><a href="contacto.html" target="_self">contacto</a></p> -->
+        </br>
+
+        <!-- Parte Princpal -->
+        <main>
+            <!-- Sección de Catalogo -->
+            <section id="Catalogo" class="container container-products">
+
+                <!-- Articulo 01 -->
+                <!-- <article class="product">
+                    <h3 class="tituloProducto"> Kit Teclado Gamer - Base de Celular </h3>
+                    <picture class="product-image">
+                        <img src="img/tec cel mouse.jpg" alt="Teclado y mouse">
+                    </picture>
+                    <div class="product-price"> 
+                        <span class="price-ofert">S/ 100.00 <span class="bagde-dsct">-50%</span> <br>
+                        <i class="price-old">S/ 200.00</i>
+                    </div>
+                    <div class="product-btn-buy">
+                        <button class="btn btn-secondary"  data-product-id="1" onclick="addCart(this)">Agregar al Carrito</button>
+                    </div>
+                </article> -->
+
+
+                <!-- Articulo 02 -->
+                <!-- <article class="product">
+                    <h3 class="tituloProducto"> Caddy para Laptops </h3>
+                    <picture class="product-image">
+                        <img src="img/CADDY2.jpg" alt="Teclado y mouse">
+                    </picture>
+                    <div class="product-price">
+                        <span class="price-ofert">S/ 20.00 <span class="bagde-dsct">-80%</span> <br>
+                        <i class="price-old">S/ 100.00</i>
+                    </div>
+                    <div class="product-btn-buy">
+                        <button class="btn btn-secondary" data-product-id="2" onclick="addCart(this)">Agregar al Carrito</button>
+                    </div>
+                </article> -->
+
+                <!-- Articulo 03 -->
+                <!-- <article class="product">
+                    <h3  class="tituloProducto"> Cpu Marca Dell Corei5 </h3>
+                    <picture class="product-image">
+                        <img src="img/cpu dell i5.jpg" alt="Teclado y mouse">
+                    </picture>
+                    <div class="product-price">
+                        <span class="price-ofert">S/ 100.00 <span class="bagde-dsct">-50%</span> <br>
+                        <i class="price-old">S/ 200.00</i>
+                    </div>
+                    <div class="product-btn-buy">
+                        <button class="btn btn-secondary">Agregar al Carrito</button>
+                    </div>
+                </article> -->
+
+                <!-- Articulo 04 -->
+                <!-- <article class="product">
+                    <h3 class="tituloProducto"> Monitor Led Samsung con Pantalla Giratorio </h3>
+                    <picture class="product-image">
+                        <img src="img/MONITOR SAMSUNG.jpg" alt="Teclado y mouse">
+                    </picture>
+                    <div class="product-price">
+                        <span class="price-ofert">S/ 250.00 <span class="bagde-dsct">-50%</span> <br>
+                        <i class="price-old">S/ 500.00</i>
+                    </div>
+                    <div class="product-btn-buy">
+                        <button class="btn btn-secondary">Agregar al Carrito</button>
+                    </div>
+                </article> -->
+                <!-- Articulo 05 -->
+                <!-- <article class="product">
+                    <h3 class="tituloProducto"> Kit Estudiante </h3>
+                    <picture class="product-image">
+                        <img src="img/teclado logitech.jpg" alt="Teclado y mouse">
+                    </picture>
+                    <div class="product-price">
+                        <span class="price-ofert">S/ 40.00 <span class="bagde-dsct">-50%</span> <br>
+                        <i class="price-old">S/ 80.00</i>
+                    </div>
+                    <div class="product-btn-buy">
+                        <button class="btn btn-secondary">Agregar al Carrito</button>
+                    </div>
+                </article> -->
+
+                <!-- Articulo 06 -->
+                <!-- <article class="product">
+                    <h3 class="tituloProducto"> Impresora Multifuncional </h3>
+                    <picture class="product-image">
+                        <img src="img/Impresora-Canon-G4100.jpg" alt="Teclado y mouse">
+                    </picture>
+                    <div class="product-price">
+                        <span class="price-ofert">S/ 612.00 <span class="bagde-dsct">-32%</span> <br>
+                        <i class="price-old">S/ 900.00</i>
+                    </div>
+                    <div class="product-btn-buy">
+                        <button class="btn btn-secondary">Agregar al Carrito</button>
+                    </div>
+                </article> -->
+
+                <!-- Articulo 07 -->
+                <!-- <article class="product">
+                    <h3 class="tituloProducto"> Parlantes Discotekeros </h3>
+                    <picture class="product-image">
+                        <img src="img/PARLANTES MICRONICS USB.jpg" alt="Teclado y mouse">
+                    </picture>
+                    <div class="product-price">
+                        <span class="price-ofert">S/ 90.00 <span class="bagde-dsct">-50%</span> <br>
+                        <i class="price-old">S/ 180.00</i>
+                    </div>
+                    <div class="product-btn-buy">
+                        <button class="btn btn-secondary">Agregar al Carrito</button>
+                    </div>
+                </article> -->
+
+                <!-- Articulo 08 -->
+                <!-- <article class="product">
+                    <h3 class="tituloProducto"> Porta Tablet Original </h3>
+                    <picture class="product-image">
+                        <img src="img/porta tablet.jpg" alt="Teclado y mouse">
+                    </picture>
+                    <div class="product-price">
+                        <span class="price-ofert">S/ 15.00 <span class="bagde-dsct">-70%</span> <br>
+                        <i class="price-old">S/ 50.00</i>
+                    </div>
+                    <div class="product-btn-buy">
+                        <button class="btn btn-secondary">Agregar al Carrito</button>
+                    </div>
+                </article> -->
+
+                <!-- Articulo 09 -->
+                <!-- <article class="product">
+                    <h3 class="tituloProducto"> WebCam - Fotográfos </h3>
+                    <picture class="product-image">
+                        <img src="img/WEBCAM.jpg" alt="Teclado y mouse">
+                    </picture>
+                    <div class="product-price">
+                        <span class="price-ofert">S/ 150.00 <span class="bagde-dsct">-50%</span> <br>
+                        <i class="price-old">S/ 300.00</i>
+                    </div>
+                    <div class="product-btn-buy">
+                        <button class="btn btn-secondary">Agregar al Carrito</button>
+                    </div>
+                </article> -->
+
+                <!-- Articulo 10 -->
+                <!-- <article class="product">
+                    <h3 class="tituloProducto"> Fuente de Poder 800w </h3>
+                    <picture class="product-image">
+                        <img src="img/fuente de poder.jpg" alt="Teclado y mouse">
+                    </picture>
+                    <div class="product-price">
+                        <span class="price-ofert">S/ 350.00 <span class="bagde-dsct">-50%</span> <br>
+                        <i class="price-old">S/ 700.00</i>
+                    </div>
+                    <div class="product-btn-buy">
+                        <button class="btn btn-secondary">Agregar al Carrito</button>
+                    </div>
+                </article> -->
+
+                <!-- Articulo 11 -->
+                <!-- <article class="product">
+                    <h3 class="tituloProducto"> Estabilizador de Corriente </h3>
+                    <picture class="product-image">
+                        <img src="img/estabilizador.jpg" alt="Teclado y mouse">
+                    </picture>
+                    <div class="product-price">
+                        <span class="price-ofert">S/ 100.00 <span class="bagde-dsct">-50%</span> <br>
+                        <i class="price-old">S/ 200.00</i>
+                    </div>
+                    <div class="product-btn-buy">
+                        <button class="btn btn-secondary">Agregar al Carrito</button>
+                    </div>
+                </article> -->
+
+                <!-- Articulo 12 -->
+                <!-- <article class="product">
+                    <h3 class="tituloProducto"> Cargador Acer Original Para Laptops </h3>
+                    <picture class="product-image">
+                        <img src="img/CARGADOR ACER.jpg" alt="Teclado y mouse">
+                    </picture>
+                    <div class="product-price">
+                        <span class="price-ofert">S/ 112.00 <span class="bagde-dsct">-60%</span> <br>
+                        <i class="price-old">S/ 280.00</i>
+                    </div>
+                    <div class="product-btn-buy">
+                        <button class="btn btn-secondary">Agregar al Carrito</button>
+                    </div>
+                </article> -->
+
+            </section>
+        </main>
+        </nav>
+
+
+        <!-- Modal -->
+        <!--<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Carrito</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Limpiar</button>
+              <button type="button" class="btn btn-primary">Finalizar compra</button>
+            </div>
+          </div>
+        </div> 
+      </div>
+    
+    </div> -->
+
+
+        <!--VENTANA DE CARRITO-->
+        <div id="ventanaCarrito" class="modal fade" tabindex="-1">
+            <div class="modal-dialog modal-md">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Carrito</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="container-cart" style="overflow: auto;max-height: 250px;"></div>
+                        <div id="container-foot-cart"></div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"
+                            onclick="resetCart()">Limpiar</button>
+
+                    <!--  dando clic al boton finalizarcompra nos lleva a una NUEVA pagina  -->
+
+                    <a target="_blank" <button href="finalizarcompra.html" type="button" class="btn btn-primary">Finalizar compra</button></a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!--Aqui se ejecutan las instrucciones JavaScript-->
+       <!--  <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script> -->
+
+        <!-- Cargando funciones de Boostrap-->
+        <script src="js/bootstrap.min.js"></script>
+
+        <!-- JavaScript personalizado-->
+        <script src="js/custom.js"></script>
+
+<div class="piepag">
+<footer> ..: © 2023 Copyright ::: Gustavo Bautista ::: Gracias por su Visita :.. </footer>
+</div>
+
+</body>
+
+</html>

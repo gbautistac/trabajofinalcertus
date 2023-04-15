@@ -1,0 +1,171 @@
+/* Fuentes Tipográficas */
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&display=swap');
+
+
+/*Diseño General */
+html body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    background: #bde4a2;
+}
+
+/*Encabezado */
+
+header {
+    color: #72dde0;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Ubuntu';
+    margin: 0px;
+    text-align: center;
+    background-image: url(img/enc2.jpg);
+    background-color: aquamarine;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}  
+header h1 {
+    color: #eff2f7;
+    font-size: 4em;
+    font-family: 'Verdana';
+    padding-bottom: 5px;
+    margin: 0px;
+    text-align: center;   
+}
+ header h2 {
+        color:  rgba(14, 17, 1, 0.952);
+        font-size: 1.5em;
+        font-family: 'Ubuntu';
+        margin: 0px;
+        text-align: center;   
+}
+
+
+/* Navegación */
+html body  nav  ul {
+    margin: 0px;
+    background-color: rgba(134, 241, 149, 0.952);
+    text-align: center;  
+}
+
+html body nav ul li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+html body nav ul li:hover {
+    background-color:#f1f1ec ;
+}
+
+html body nav ul li a {
+    color: rgb(247, 247, 250) ;
+    text-decoration: none;
+}
+
+/* Cuerpo principal */
+p {
+    color: darkblue;
+    font-size: 1.5em;
+    text-align: center; 
+    background-color: rgb(241, 237, 174);
+    margin-top: 0px;
+}
+
+.container {
+    margin: auto;
+    max-width: 600px; 
+}
+/* Sección Catálogos */
+#Catalogo {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    gap: 1rem;
+}
+
+#Catalogo article picture img {
+       
+        
+    max-width: 200px;
+    max-height: 200px; 
+}
+
+#Catalogo article {
+    background: #fff;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    max-height: 420px;
+    max-width: 250px;
+    min-height: 420px;
+    min-width: 250px;
+    text-align: center;
+}
+/* Articulos */
+
+.d-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.product .productprice {
+    font-weight: 600;
+}
+
+.product .productprice .bagde-dsct {
+    color: rgb(255, 0, 0);
+}
+
+.product .price-old {
+    color: gray;
+    text-decoration:line-through;
+    font-size: 13.5px;
+}
+
+.product .product-btn-buy {
+    padding-top: 1rem;
+}
+
+.product .product-btn-buy .btn {
+    /* padding: .8rem; */
+    background: #fffd92;
+    color: #000;
+    border: 0;
+    border-radius: 1rem;
+    position: relative;
+    bottom: 0px;
+}
+
+.btn:hover {
+    border: 1px solid #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+html > body > main > section > h3{
+    background:  rgb(235, 241, 143)
+}
+.maps{
+    margin: auto;
+    padding-left: 50px;
+    padding-bottom: 50px;
+
+    border: 10px solid #110000;
+
+    
+}
+
+.piepag{
+    margin: auto;
+    color: blue;
+    text-align: center;
+     background: #ececda;
+}
+
+/* #formcontacto {
+padding: 1rem;
+} */

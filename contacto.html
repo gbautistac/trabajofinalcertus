@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technopolis Contacto</title>
+
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1> TECHNOPOLIS </h1> <!--Título 1-->
+           <h2>Seguridad, Calidad y Garantía</h2> <!-- Titulo 2 -->
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <p><a href="index.html">Inicio</a></p> <!-- Anchor (a) -->
+    </nav> 
+
+    <!-- Cuerpo Principal -->
+    <main>
+        <!-- Formulario de Contactos -->
+         <section id="formContacto">
+
+          <h3>Escríbenos ahora.</h3>  
+            <!-- Formulario -->
+            <form action="contactoregistro.html" method="post">
+
+                <!-- Input / Entradas de Valor -->
+                <div>
+                    <label for="txtNombre">Ingrese su Nombre</label>
+                    <input type="text" name="txtNombre" id="txtNombre" maxlength=100 required>
+               </div>
+                
+                <div>
+                    <label for="txtApellido">Ingrese su Apellido</label>
+                    <input type="text" name="txtApellido" id="txtApellido" autocomplete="off" maxlength=54 required>
+                </div>
+                
+                <div>
+                    
+                    <label for="txtemail">Ingrese su Correo Electrónico</label>
+                    <input type="email" name="txtemail" id="txtemail"autocomplete="off" maxlength=128  required>
+                    
+                </div>
+        
+                <div>
+                    <label for="numphone">Ingrese su Numero de Teléfono o Celular</label>
+                    <input type="tel" name="numphone" id="numphone" autocomplete="off" maxlength="13" minlegth="7">
+                </div>
+
+                <!-- Seleccion de Valor -->
+                <div>
+                    <label for="txtAsunto">Escoja el Asunto del Mensaje</label>
+                    <select name="txtAsunto" id="txtAsunto" required>
+                        <option value="">Seleccione una opción...</option>
+                        <option value="comprarMayor">Comprar productos por mayor</option>
+                        <option value="consultaDevolucion">Consulta para Devolucion de productos</option>
+                        <option value="consultaGeneral">Hacer Consulta General</option>
+                    </select>
+                </div>
+
+                <!-- Text Area / Cuerpo de Texto-->
+
+                <div>
+                    <label for="bodyDetalle">Ingrese su mensaje</label>
+                    <textarea name="bodyDetalle" id="bodyDetalle" cols="30" rows="8" required></textarea>
+                </div>
+
+                <!-- Input de checkbox -->
+                <div>
+                    <input type="checkbox" name="bolAutorizo" id="bolAutorizo" required>
+                    <label for="bolAutorizo">Autorizo el envío de publicidad e información comercial</label>
+                </div>
+
+                <!-- Input Submit / Botón de Enviar -->
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+
+                
+            
+         </section>
+
+         <!-- Datos de Contacto -->
+         <section id="ubicanos">
+                <p> Av. Los Alamos de Punta Hermosa <br>
+                    Pachacamac - Lima - Peru
+                </p>
+                <p>Teléfono:01 680 9999 / 999 555 555</p>
+                <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3903.6596136980656!2d-77.0480943!3d-11.9287601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105d131a68ebf75%3A0x26be0bba519bacf6!2sSinchi%20Roca!5e0!3m2!1ses!2spe!4v1679946926919!5m2!1ses!2spe" width="600" height="450" style="border:darkblue;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         </section>
+            
+        <!-- Formulario de Contacto -->
+
+    </main>
+    <div class="piepag">
+        <footer> ..: © 2023 Copyright ::: Gustavo Bautista ::: Gracias por su Visita :.. </footer>
+    </div>
+
+</body>
+</html>
